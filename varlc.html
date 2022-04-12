@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var-let-const</title>
+    <script>    
+        console.log("Cadenas-de-Texto-Strings")
+
+        console.log("no me gusta las clases de cole")
+        var bar = "var la cual define una variable global o local en una función sin importar el ámbito del bloque"
+        let letttt = "let te permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando a diferencia de la palabra clave"
+    
+        let nombre = "David";
+        let apellido = "Vargas";
+        let apodo = new String("Kaperuzo");
+    
+        console.log(nombre,apellido,apodo);
+    
+        for (let index = 0; index < 3; index++) {
+            bar=index
+            let letttt=index
+            console.log("bar",bar)
+        }
+        console.log("bar",bar)
+        console.log("letttt",lett) 
+    
+        console.log(nombre,apellido,apodo);
+        console.log(apodo[5])   </script>
+</head>
+<body>
+    <h2>var la cual define una variable global o local en una función sin importar el ámbito del bloque</h2>
+    <h2>let te permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando a diferencia de la palabra clave</h2>
+</body>
+</html>
